@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Good day",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! I'm here to listen. How are you feeling today?",
+        "Hi! I'm here to help. What’s on your mind?",
+        "Hi there! How can I assist you with your thoughts and feelings today?",
+        "Hello! Feel free to share what’s bothering you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you later"],
+      "responses": [
+        "Goodbye! Take care and remember, I'm here if you need to talk.",
+        "See you later. Don't hesitate to reach out again if you need support.",
+        "Farewell! Wishing you peace and comfort. Come back whenever you need.",
+        "Talk to you later. Remember, you’re not alone."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That’s helpful", "Thanks a lot!"],
+      "responses": [
+        "You're welcome! I'm here to help whenever you need.",
+        "Anytime! Feel free to reach out if you need support.",
+        "My pleasure. Remember, talking can be very helpful."
+      ]
+    },
+    {
+      "tag": "emotional_support",
+      "patterns": [
+        "I'm feeling anxious",
+        "I’m depressed",
+        "I feel overwhelmed",
+        "I’m having a hard time coping"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling this way. Can you tell me more about what’s going on?",
+        "It’s okay to feel overwhelmed. Let’s talk about what’s bothering you.",
+        "I'm here to listen. What’s been on your mind lately?",
+        "It's important to talk about how you're feeling. How long have you been feeling this way?"
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "How can I manage my stress?",
+        "I need help with stress",
+        "What are some techniques to reduce stress?",
+        "Can you suggest ways to handle stress?"
+      ],
+      "responses": [
+        "Managing stress can be challenging. Try some deep breathing exercises or mindfulness techniques.",
+        "Consider setting aside time for activities you enjoy and practicing relaxation techniques.",
+        "Regular exercise and a balanced diet can also help in managing stress. Would you like more tips?",
+        "It might help to talk about what's causing you stress. Let’s explore some ways to address it."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "What are some self-care practices?",
+        "How can I take better care of myself?",
+        "I need self-care tips",
+        "What should I do for self-care?"
+      ],
+      "responses": [
+        "Self-care can include activities like exercising, reading, or spending time with loved ones.",
+        "Make sure to take time for yourself and do things that make you feel good.",
+        "Regular self-care routines can improve your well-being. What activities do you enjoy?",
+        "It's important to set aside time for yourself. What are some things that help you relax?"
+      ]
+    },
+    {
+      "tag": "seeking_help",
+      "patterns": [
+        "Should I see a therapist?",
+        "I think I need professional help",
+        "Can you help me find a counselor?",
+        "I’m considering talking to a mental health professional"
+      ],
+      "responses": [
+        "Seeking help from a therapist can be very beneficial. It’s a positive step towards managing your mental health.",
+        "If you feel like you need professional support, it might be helpful to reach out to a mental health professional.",
+        "I can’t provide professional therapy, but I can guide you on how to find a qualified counselor.",
+        "It's great that you're considering professional help. You might want to contact a mental health service in your area."
+      ]
+    },
+    {
+      "tag": "suicidal_thoughts",
+      "patterns": [
+        "I want to commit suicide",
+        "I'm thinking about ending my life",
+        "I don't want to live anymore",
+        "I'm feeling hopeless"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way, but I'm not equipped to help with this. Please reach out to a mental health professional immediately.",
+        "It's important to talk to someone who can provide the support you need. Please contact a crisis hotline or a mental health professional right away.",
+        "Your feelings are important, and you don't have to go through this alone. Please seek immediate help from a mental health professional or a trusted person in your life.",
+        "There are people who care and want to help you. Please reach out to a crisis support service or a mental health professional."
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "I'm having problems in my relationship",
+        "My partner and I are arguing a lot",
+        "I feel distant from my loved ones",
+        "Can you help me with relationship issues?"
+      ],
+      "responses": [
+        "Relationships can be challenging. It might help to talk about what’s been happening and how it’s affecting you.",
+        "Consider discussing your feelings with your partner or a trusted person. Communication can often help resolve conflicts.",
+        "I can offer some tips for improving communication and understanding in relationships, if you’d like.",
+        "It's important to address relationship issues openly. Seeking couples therapy might also be beneficial."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "What are some ways to cope with stress?",
+        "Can you suggest coping strategies for anxiety?",
+        "How can I manage difficult emotions?",
+        "What strategies can help me feel better?"
+      ],
+      "responses": [
+        "Coping strategies can include mindfulness, exercise, or talking to a trusted friend or therapist.",
+        "It might help to identify specific triggers for your stress and develop a plan to address them.",
+        "Practicing relaxation techniques and finding activities that you enjoy can also be beneficial.",
+        "Let’s explore some strategies that might work for you. What kinds of activities help you feel better?"
+      ]
+    },
+    {
+      "tag": "daily_motivation",
+      "patterns": [
+        "I need some motivation",
+        "Can you give me a motivational quote?",
+        "I'm feeling unmotivated",
+        "Help me stay positive"
+      ],
+      "responses": [
+        "Here’s a motivational quote: ‘The only way to do great work is to love what you do.’ - Steve Jobs",
+        "Staying positive can be challenging, but setting small, achievable goals can help.",
+        "Remember, every day is a new opportunity to make progress. What’s one thing you can focus on today?",
+        "Sometimes, taking one step at a time can help build momentum and improve motivation."
+      ]
+    }
+  ]
+}
